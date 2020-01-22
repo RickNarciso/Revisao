@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revisao</title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin:0%;
+        
+    }
+    .article {
+        width: 100%;
+    }
+
+    .header {
+        background: green;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .nav {
+        background: lightgray;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .article {
+        background: blue;
+        margin: 5px;
+        padding: 30px;
+        width: 60%;
+
+    }
+
+    .section {
+        background: orange;
+        margin: 5px;
+        padding: 30px;
+
+    }
+
+    .aside {
+        background: purple;
+        margin: 5px;
+        padding: 30px;
+        width: 40%;
+
+    }
+
+    .footer {
+        background: blue;
+        margin: 5px;
+        padding: 30px;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue;
+        }
+    .main {
+        flex-direction: column;
+    }
+    }
+</style>
+
+<body>
+    <header class="header">
+        header
+        <nav class="nav">NAV</nav>
+    </header>
+    <main class="main">
+        <article class="article">
+            <section class="section">
+                Section
+            </section>
+            <section class="section">
+                Section
+            </section>
+            <section class="section">
+                Section
+            </section>
+        </article>
+        <aside class="aside">
+            ASIDE
+        </aside>
+    </main>
+    <footer class="footer">
+        FOOTER
+    </footer>
+
+
+</body>
+
+</html>
